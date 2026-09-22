@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="paper">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annontrix — Software · Web · Apps</title>
+  <meta name="description" content="Annontrix is a software studio building custom software solutions, websites, and mobile apps — designed, engineered, and shipped by a small senior team.">
+  <meta property="og:title" content="Annontrix — Software Studio, Issue 01">
+  <meta property="og:description" content="Custom software, web development, and app development. Fixed-scope quotes, weekly demos, full source ownership.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23E8380D'/%3E%3Ctext x='32' y='44' font-family='Arial Black,sans-serif' font-size='34' font-weight='900' fill='%23F7F4EE' text-anchor='middle'%3EAX%3C/text%3E%3C/svg%3E">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('anx-theme');
+        if (t !== 'ink' && t !== 'paper') {
+          t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'ink' : 'paper';
+        }
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { /* default stands */ }
+      document.documentElement.classList.add('js');
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#services">Skip to services</a>
+
+  <!-- ============ RUNNING HEADER ============ -->
+  <header class="running-header" id="runningHeader" aria-label="Site header">
+    <a class="rh-wordmark" href="#top">ANNONTRIX</a>
+    <p class="rh-folio mono" id="folioIndicator">000 / 006 — MASTHEAD</p>
+    <nav class="rh-nav mono" aria-label="Sections">
+      <a href="#services">SERVICES</a>
+      <a href="#work">WORK</a>
+      <a href="#process">PROCESS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <div class="rh-actions">
+      <button class="theme-switch mono" id="themeToggle" type="button" role="switch" aria-checked="false" aria-label="Ink theme">
+        <span class="ts-opt ts-ink">INK</span><span class="ts-slash" aria-hidden="true">/</span><span class="ts-opt ts-paper">PAPER</span>
+      </button>
+      <a class="rh-cta mono" href="#contact">START A PROJECT&nbsp;↗</a>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+  </header>
+
+  <!-- ============ 000 MASTHEAD ============ -->
+  <section class="masthead" id="top" data-folio="000 / 006 — MASTHEAD">
+    <div class="mast-topbar mono">
+      <span>ANNONTRIX</span>
+      <span class="mast-topbar-right">SOFTWARE STUDIO — ISSUE&nbsp;01&nbsp;&nbsp;·&nbsp;&nbsp;SOFTWARE · WEB · APPS</span>
+    </div>
+
+    <h1 class="mast-name" aria-label="Annontrix builds">
+      <span class="mast-line" aria-hidden="true">ANNONTRIX</span>
+      <span class="mast-line" aria-hidden="true">BUILDS<span class="mast-dot">.</span></span>
+    </h1>
+
+    <p class="mast-dek">A software studio building <em>custom software</em>, <em>websites</em>, and <em>mobile apps</em> — designed, engineered, and shipped by the people you actually talk to.</p>
+
+    <div class="mast-meta mono">
+      <span>REMOTE-FIRST · WORLDWIDE</span>
+      <span class="mast-open"><span class="pulse-dot" aria-hidden="true"></span>NOW BOOKING NEW PROJECTS</span>
+      <a href="#contact">START A PROJECT&nbsp;↗</a>
+    </div>
+    <p class="mast-facts mono">EST. 2026&nbsp;&nbsp;·&nbsp;&nbsp;SOFTWARE / WEB / APPS&nbsp;&nbsp;·&nbsp;&nbsp;FIXED-SCOPE QUOTES&nbsp;&nbsp;·&nbsp;&nbsp;WEEKLY DEMOS&nbsp;&nbsp;·&nbsp;&nbsp;YOU OWN THE SOURCE</p>
+
+    <p class="mast-scrollcue mono" aria-hidden="true">SCROLL ↓</p>
+  </section>
+
+  <main>
+
+    <!-- ============ 001 THE LEDE ============ -->
+    <section class="section" id="about" data-folio="001 / 006 — THE LEDE">
+      <div class="kicker mono"><span>001 — THE LEDE</span><span>01 / 06</span></div>
+      <h2 class="headline reveal">Built properly, <em>on purpose.</em></h2>
+
+      <div class="about-grid">
+        <div class="about-body">
+          <p class="dropcap rise">Annontrix is a small, senior software studio. We build the whole thing — the data model, the backend, the interface, the deploy pipeline — for businesses that are tired of tools that almost fit. Most of our work starts with a real bottleneck: a back office run on spreadsheets, a website that loads slowly and converts worse, an app idea that has been "almost ready" for a year.</p>
+          <p class="rise">A thread runs through how we work: software should respect the people paying for it and the people using it. That's why our projects turn out fixed-scope, demoed weekly, documented plainly, and handed over with full source ownership — no lock-in, no surprise invoices, no account managers between you and the engineers.</p>
+          <p class="rise">Right now we're taking on software solutions, web development, and app development projects — and we come back to every brief within one business day.</p>
+        </div>
+        <aside class="about-margin" aria-label="Quick facts">
+          <div class="margin-row mono"><span class="margin-key">FOUNDED</span><span>2026 — REMOTE-FIRST</span></div>
+          <div class="margin-row mono"><span class="margin-key">FOCUS</span><span>SOFTWARE · WEB · MOBILE</span></div>
+          <div class="margin-row mono"><span class="margin-key">ETHOS</span><span>FIXED-SCOPE · WEEKLY DEMOS · YOU OWN THE CODE</span></div>
+          <div class="margin-row mono"><span class="margin-key">STATUS</span><span>NOW BOOKING NEW PROJECTS</span></div>
+          <p class="pull-quote">&ldquo;Build the whole thing. Then hand over the keys.&rdquo;</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ 002 SERVICES ============ -->
+    <section class="section" id="services" data-folio="002 / 006 — SERVICES">
+      <div class="kicker mono"><span>002 — SERVICES</span><span>02 / 06</span></div>
+      <h2 class="headline reveal">What we <em>build.</em></h2>
+      <p class="section-note mono rise">THREE PRACTICES. OPEN A ROW FOR THE DETAIL.</p>
+
+      <ol class="work-index svc-index">
+
+        <!-- 01 SOFTWARE SOLUTIONS -->
+        <li class="svc-item">
+          <details class="work-row" id="s-software">
+            <summary>
+              <span class="row-num mono" aria-hidden="true">01</span>
+              <span class="row-title">Software Solutions</span>
+              <span class="row-leader" aria-hidden="true"></span>
+              <span class="row-meta mono">INTERNAL TOOLS / AUTOMATION / INTEGRATIONS</span>
+              <span class="row-glyph" aria-hidden="true">+</span>
+            </summary>
+            <div class="spread">
+              <div class="spread-fig">
+                <pre class="plate mono" aria-hidden="true" data-plate="software"></pre>
+                <p class="fig-caption mono">FIG. 01 — REPLACE THE SPREADSHEET YOU'RE AFRAID TO TOUCH</p>
+              </div>
+              <div class="spread-body">
+                <p class="spread-dek">Custom systems that fit the way your business actually works — not the other way around.</p>
+                <dl class="case-file">
+                  <div class="case-row"><dt class="mono">FOR</dt><dd>Operations teams, founders, and departments running on spreadsheets, email threads, and three SaaS tools that don't talk to each other.</dd></div>
+                  <div class="case-row"><dt class="mono">WE BUILD</dt><dd>Internal dashboards, workflow and approval systems, data pipelines, API integrations, automation of repetitive back-office work, and migrations off legacy systems — with the reporting layer your team keeps asking for.</dd></div>
+                  <div class="case-row"><dt class="mono">STACK</dt><dd>Python · FastAPI · Node.js · PostgreSQL · Redis · Docker · AWS / GCP · LLM integration where it earns its place</dd></div>
+                  <div class="case-row"><dt class="mono">TYPICAL</dt><dd>6–12 weeks from discovery to rollout. Fixed scope, weekly demos, staged rollout across teams, and documentation your next hire can read.</dd></div>
+                </dl>
+                <p class="metrics mono"><span>FIXED SCOPE</span><span>WEEKLY DEMOS</span><span>API-FIRST</span><span>FULL SOURCE</span></p>
+                <p class="spread-links mono">
+                  <a href="#contact">SCOPE A SOFTWARE PROJECT ↗</a>
+                  <a href="#work=software">SEE SOFTWARE CASE STUDIES ↗</a>
+                </p>
+              </div>
+            </div>
+          </details>
+        </li>
+
+        <!-- 02 WEB DEVELOPMENT -->
+        <li class="svc-item">
+          <details class="work-row" id="s-web">
+            <summary>
+              <span class="row-num mono" aria-hidden="true">02</span>
+              <span class="row-title">Web Development</span>
+              <span class="row-leader" aria-hidden="true"></span>
+              <span class="row-meta mono">SITES / WEB APPS / PLATFORMS</span>
+              <span class="row-glyph" aria-hidden="true">+</span>
+            </summary>
+            <div class="spread">
+              <div class="spread-fig">
+                <pre class="plate mono" aria-hidden="true" data-plate="web"></pre>
+                <p class="fig-caption mono">FIG. 02 — FAST TO LOAD, EASY TO UPDATE, BUILT TO RANK</p>
+              </div>
+              <div class="spread-body">
+                <p class="spread-dek">From a one-page launch site to a full customer platform — fast, accessible, and yours to edit.</p>
+                <dl class="case-file">
+                  <div class="case-row"><dt class="mono">FOR</dt><dd>Businesses whose website is their storefront, product teams who need a real web application, and brands that have outgrown a template.</dd></div>
+                  <div class="case-row"><dt class="mono">WE BUILD</dt><dd>Marketing sites with a CMS your team will actually use, e-commerce, customer portals, SaaS front-ends, dashboards, and progressive web apps — designed for accessibility (WCAG AA) and search from the first commit.</dd></div>
+                  <div class="case-row"><dt class="mono">STACK</dt><dd>React / Next.js · TypeScript · Tailwind · Node.js · PostgreSQL · headless CMS · Vercel / AWS · Stripe</dd></div>
+                  <div class="case-row"><dt class="mono">TYPICAL</dt><dd>3–5 weeks for a marketing site, 8–14 weeks for a platform. Lighthouse scores in the 90s, and a handover session so you're never dependent on us to change a headline.</dd></div>
+                </dl>
+                <p class="metrics mono"><span>WCAG AA</span><span>90+ LIGHTHOUSE</span><span>CMS INCLUDED</span><span>SEO-READY</span></p>
+                <p class="spread-links mono">
+                  <a href="#contact">SCOPE A WEB PROJECT ↗</a>
+                  <a href="#work=web">SEE WEB CASE STUDIES ↗</a>
+                </p>
+              </div>
+            </div>
+          </details>
+        </li>
+
+        <!-- 03 APP DEVELOPMENT -->
+        <li class="svc-item">
+          <details class="work-row" id="s-mobile">
+            <summary>
+              <span class="row-num mono" aria-hidden="true">03</span>
+              <span class="row-title">App Development</span>
+              <span class="row-leader" aria-hidden="true"></span>
+              <span class="row-meta mono">iOS / ANDROID / CROSS-PLATFORM</span>
+              <span class="row-glyph" aria-hidden="true">+</span>
+            </summary>
+            <div class="spread">
+              <div class="spread-fig">
+                <pre class="plate mono" aria-hidden="true" data-plate="mobile"></pre>
+                <p class="fig-caption mono">FIG. 03 — ONE CODEBASE, TWO STORES, OFFLINE-FIRST</p>
+              </div>
+              <div class="spread-body">
+                <p class="spread-dek">Native-feeling mobile apps for iOS and Android — built once, shipped to both stores, and designed for how people actually hold their phones.</p>
+                <dl class="case-file">
+                  <div class="case-row"><dt class="mono">FOR</dt><dd>Companies that need a customer-facing app, field teams that work without signal, and founders taking a product from prototype to the App Store.</dd></div>
+                  <div class="case-row"><dt class="mono">WE BUILD</dt><dd>Cross-platform apps in React Native or Flutter, fully native Swift and Kotlin when performance or platform APIs demand it, companion apps for existing products, and the backend, push, payments, and analytics that go with them.</dd></div>
+                  <div class="case-row"><dt class="mono">STACK</dt><dd>React Native (Expo) · Flutter · Swift / SwiftUI · Kotlin / Jetpack Compose · Node.js or FastAPI backends · push · Stripe · offline sync</dd></div>
+                  <div class="case-row"><dt class="mono">TYPICAL</dt><dd>8–16 weeks to a store release. We handle TestFlight and Play Console, store listings, and the first month of crash-free monitoring.</dd></div>
+                </dl>
+                <p class="metrics mono"><span>iOS + ANDROID</span><span>OFFLINE-FIRST</span><span>STORE SUBMISSION</span><span>PUSH &amp; PAYMENTS</span></p>
+                <p class="spread-links mono">
+                  <a href="#contact">SCOPE AN APP PROJECT ↗</a>
+                  <a href="#work=mobile">SEE MOBILE CASE STUDIES ↗</a>
+                </p>
+              </div>
+            </div>
+          </details>
+        </li>
+
+      </ol>
+
+      <p class="also-line mono rise"><span class="also-key">ALSO ON THE MASTHEAD</span> UI / UX DESIGN&nbsp;&nbsp;·&nbsp;&nbsp;CLOUD &amp; DEVOPS&nbsp;&nbsp;·&nbsp;&nbsp;AI INTEGRATION&nbsp;&nbsp;·&nbsp;&nbsp;TECHNICAL AUDITS&nbsp;&nbsp;·&nbsp;&nbsp;MAINTENANCE &amp; SUPPORT</p>
+    </section>
+
+    <!-- ============ 003 SELECTED WORK ============ -->
+    <section class="section" id="work" data-folio="003 / 006 — SELECTED WORK">
+      <div class="kicker mono"><span>003 — SELECTED WORK</span><span>03 / 06</span></div>
+      <h2 class="headline reveal">Things we've <em>shipped.</em></h2>
+
+      <div class="filter-bar">
+        <div class="filter-chips" role="group" aria-label="Filter case studies">
+          <button class="chip mono" type="button" data-filter="all" aria-pressed="true">ALL <span class="chip-count"></span></button>
+          <button class="chip mono" type="button" data-filter="software" aria-pressed="false">SOFTWARE <span class="chip-count"></span></button>
+          <button class="chip mono" type="button" data-filter="web" aria-pressed="false">WEB <span class="chip-count"></span></button>
+          <button class="chip mono" type="button" data-filter="mobile" aria-pressed="false">MOBILE <span class="chip-count"></span></button>
+          <button class="chip chip-stack mono" type="button" id="stackChip" hidden aria-pressed="true"></button>
+        </div>
+        <p class="filter-count mono" id="filterCount" aria-live="polite">06 PROJECTS / 06 SHOWN</p>
+      </div>
+
+      <ol class="work-index" id="workIndex">
+
+        <!-- 01 LEDGERLINE -->
+        <li class="work-item" data-cat="web" data-stack="python fastapi postgres redis react nextjs typescript tailwind docker aws">
+          <details class="work-row" id="p-ledgerline">
+            <summary>
+              <span class="row-num mono" aria-hidden="true">01</span>
+              <span class="row-title">Ledgerline — Finance Dashboard Platform<span class="row-flag mono">FEATURED</span></span>
+              <span class="row-leader" aria-hidden="true"></span>
+              <span class="row-meta mono">2026 · NEXT.JS / FASTAPI / POSTGRES</span>
+              <span class="row-glyph" aria-hidden="true">+</span>
+            </summary>
+            <div class="spread">
+              <div class="spread-fig">
+                <pre class="plate mono" aria-hidden="true" data-plate="ledgerline"></pre>
+                <p class="fig-caption mono">FIG. 04 — EVERY NUMBER, ONE SCREEN</p>
+              </div>
+              <div class="spread-body">
+                <p class="spread-dek">A multi-tenant analytics platform for a fintech client — live ledgers, role-based access, and reports that used to take a week.</p>
+                <dl class="case-file">
+                  <div class="case-row"><dt class="mono">PROBLEM</dt><dd>Month-end reporting was assembled by hand from four exports. Clients saw stale numbers; the finance team saw their weekends disappear.</dd></div>
+                  <div class="case-row"><dt class="mono">APPROACH</dt><dd>A tenant-aware data model in PostgreSQL with row-level security, a FastAPI service that streams ledger updates over WebSockets, and a Next.js front-end with a widget plugin system so the client's own team can add views without a deploy.</dd></div>
+                  <div class="case-row"><dt class="mono">STACK</dt><dd>Next.js · React · TypeScript · Tailwind · FastAPI · PostgreSQL · Redis · Docker · AWS</dd></div>
+                  <div class="case-row"><dt class="mono">OUTCOME</dt><dd>Reporting time cut from five days to same-day, sub-second dashboard loads, and a SOC 2-ready audit trail. Delivered in ten weeks.</dd></div>
+                </dl>
+                <p class="metrics mono"><span>40% LESS MANUAL WORK</span><span>&lt;1s LOADS</span><span>MULTI-TENANT</span><span>10 WEEKS</span></p>
+                <p class="spread-links mono">
+                  <a href="#contact">START A SIMILAR PROJECT ↗</a>
+                </p>
+              </div>
+            </div>
+          </details>
+        </li>
+
+        <!-- 02 CARTWHEEL -->
+        <li class="work-item" data-cat="mobile" data-stack="typescript react-native expo node postgres stripe maps">
+          <details class="work-row" id="p-cartwheel">
+            <summary>
+              <span class="row-num mono" aria-hidden="true">02</span>
+              <span class="row-title">Cartwheel — Grocery Delivery App<span class="row-flag mono">FEATURED</span></span>
+              <span class="row-leader" aria-hidden="true"></span>
+              <span class="row-meta mono">2026 · REACT NATIVE / NODE / STRIPE</span>
+              <span class="row-glyph" aria-hidden="true">+</span>
+            </summary>
+            <div class="spread">
+              <div class="spread-fig">
+                <pre class="plate mono" aria-hidden="true" data-plate="cartwheel"></pre>
+                <p class="fig-caption mono">FIG. 05 — CART TO DOORSTEP IN ONE TAP</p>
+              </div>
+              <div class="spread-body">
+                <p class="spread-dek">A cross-platform shopping app with live order tracking and a cart that survives losing signal — plus a companion app for drivers.</p>
+                <dl class="case-file">
+                  <div class="case-row"><dt class="mono">PROBLEM</dt><dd>A regional grocer was losing orders to national apps and running deliveries off printed lists and phone calls.</dd></div>
+                  <div class="case-row"><dt class="mono">APPROACH</dt><dd>One React Native codebase for iOS and Android with an offline-first cart that reconciles on reconnect, WebSocket order tracking, Stripe checkout with saved payment methods, and a driver app with turn-by-turn routing and proof-of-delivery photos.</dd></div>
+                  <div class="case-row"><dt class="mono">STACK</dt><dd>React Native (Expo) · TypeScript · Node.js · PostgreSQL · Stripe · Maps SDK · push notifications</dd></div>
+                  <div class="case-row"><dt class="mono">OUTCOME</dt><dd>Shipped to both stores in twelve weeks, a 4.8-star rating, and average delivery times down to thirty minutes.</dd></div>
+                </dl>
+                <p class="metrics mono"><span>iOS + ANDROID</span><span>4.8★ RATING</span><span>OFFLINE CART</span><span>12 WEEKS</span></p>
+                <p class="spread-links mono">
+                  <a href="#contact">START A SIMILAR PROJECT ↗</a>
+                </p>
+              </div>
+            </div>
+          </details>
+        </li>
+
+        <!-- 03 NORTHBEAM -->
+        <li class="work-item" data-cat="software" data-stack="python fastapi postgres postgis react typescript maps docker">
+          <details class="work-row" id="p-northbeam">
+            <summary>
+              <span class="row-num mono" aria-hidden="true">03</span>
+              <span class="row-title">Northbeam — Logistics Dispatch System</span>
+              <span class="row-leader" aria-hidden="true"></span>
+              <span class="row-meta mono">2026 · PYTHON / POSTGIS / REACT</span>
+              <span class="row-glyph" aria-hidden="true">+</span>
+            </summary>
+            <div class="spread">
+              <div class="spread-fig">
+                <pre class="plate mono" aria-hidden="true" data-plate="northbeam"></pre>
+                <p class="fig-caption mono">FIG. 06 — DISPATCH THAT THINKS AHEAD</p>
+              </div>
+              <div class="spread-body">
+                <p class="spread-dek">Route optimisation and fleet dispatch software that replaced a wall of spreadsheets across three depots.</p>
+                <dl class="case-file">
+                  <div class="case-row"><dt class="mono">PROBLEM</dt><dd>Dispatchers planned two hundred vehicles by hand every morning; a single traffic incident meant re-planning the whole day by phone.</dd></div>
+                  <div class="case-row"><dt class="mono">APPROACH</dt><dd>A PostGIS-backed routing engine that ingests live telematics, re-plans affected routes when conditions change, and pushes each driver a simple daily list. Integrated with the client's existing ERP through webhooks so nothing was double-entered.</dd></div>
+                  <div class="case-row"><dt class="mono">STACK</dt><dd>Python · FastAPI · PostgreSQL / PostGIS · React · TypeScript · MapLibre · Docker · telematics APIs</dd></div>
+                  <div class="case-row"><dt class="mono">OUTCOME</dt><dd>18% fuel savings in the first quarter, real-time tracking for 200+ vehicles, and a staged rollout across three depots with zero downtime.</dd></div>
+                </dl>
+                <p class="metrics mono"><span>200+ VEHICLES</span><span>18% FUEL SAVED</span><span>REAL-TIME</span><span>3 DEPOTS</span></p>
+                <p class="spread-links mono">
+                  <a href="#contact">START A SIMILAR PROJECT ↗</a>
+                </p>
+              </div>
+            </div>
+          </details>
+        </li>
+
+        <!-- 04 RIDGELINE CLINIC -->
+        <li class="work-item" data-cat="web" data-stack="nextjs react typescript node postgres stripe tailwind aws">
+          <details class="work-row" id="p-ridgeline">
+            <summary>
+              <span class="row-num mono" aria-hidden="true">04</span>
+              <span class="row-title">Ridgeline Clinic — Booking Platform</span>
+              <span class="row-leader" aria-hidden="true"></span>
+              <span class="row-meta mono">2026 · NEXT.JS / NODE / STRIPE</span>
+              <span class="row-glyph" aria-hidden="true">+</span>
+            </summary>
+            <div class="spread">
+              <div class="spread-fig">
+                <pre class="plate mono" aria-hidden="true" data-plate="ridgeline"></pre>
+                <p class="fig-caption mono">FIG. 07 — FROM PHONE TAG TO SELF-SERVE</p>
+              </div>
+              <div class="spread-body">
+                <p class="spread-dek">A patient-facing site and booking system for a multi-location clinic — accessible, fast, and editable by the front desk.</p>
+                <dl class="case-file">
+                  <div class="case-row"><dt class="mono">PROBLEM</dt><dd>Appointments were booked by phone only; the old website was a template nobody could edit and screen readers couldn't navigate.</dd></div>
+                  <div class="case-row"><dt class="mono">APPROACH</dt><dd>A Next.js site with a headless CMS for the clinic's staff, a booking engine with practitioner availability and automated reminders, Stripe deposits for no-show reduction, and a WCAG AA pass on every template.</dd></div>
+                  <div class="case-row"><dt class="mono">STACK</dt><dd>Next.js · React · TypeScript · Tailwind · Node.js · PostgreSQL · Stripe · headless CMS · AWS</dd></div>
+                  <div class="case-row"><dt class="mono">OUTCOME</dt><dd>62% of bookings now self-serve, no-shows down by a third, Lighthouse 97 on mobile, and a front desk that updates its own hours.</dd></div>
+                </dl>
+                <p class="metrics mono"><span>62% SELF-SERVE</span><span>WCAG AA</span><span>LIGHTHOUSE 97</span><span>5 WEEKS</span></p>
+                <p class="spread-links mono">
+                  <a href="#contact">START A SIMILAR PROJECT ↗</a>
+                </p>
+              </div>
+            </div>
+          </details>
+        </li>
+
+        <!-- 05 FIELDNOTE -->
+        <li class="work-item" data-cat="mobile" data-stack="swift kotlin node postgres docker">
+          <details class="work-row" id="p-fieldnote">
+            <summary>
+              <span class="row-num mono" aria-hidden="true">05</span>
+              <span class="row-title">Fieldnote — Inspection App for Field Crews</span>
+              <span class="row-leader" aria-hidden="true"></span>
+              <span class="row-meta mono">2026 · SWIFT / KOTLIN / NODE</span>
+              <span class="row-glyph" aria-hidden="true">+</span>
+            </summary>
+            <div class="spread">
+              <div class="spread-fig">
+                <pre class="plate mono" aria-hidden="true" data-plate="fieldnote"></pre>
+                <p class="fig-caption mono">FIG. 08 — WORKS WITHOUT SIGNAL, SYNCS WHEN IT FINDS SOME</p>
+              </div>
+              <div class="spread-body">
+                <p class="spread-dek">A fully native iOS and Android app for crews inspecting sites with no connectivity — photos, checklists, and signatures that sync later.</p>
+                <dl class="case-file">
+                  <div class="case-row"><dt class="mono">PROBLEM</dt><dd>Inspectors filled paper forms on site and re-typed them at the office. Photos lived on personal phones; reports were days late.</dd></div>
+                  <div class="case-row"><dt class="mono">APPROACH</dt><dd>Native SwiftUI and Jetpack Compose apps sharing one API contract, an on-device queue that captures photos, GPS, and signatures offline, and a conflict-free sync that merges when the crew is back in range. PDF reports generate automatically on submit.</dd></div>
+                  <div class="case-row"><dt class="mono">STACK</dt><dd>Swift / SwiftUI · Kotlin / Jetpack Compose · Node.js · PostgreSQL · Docker · S3</dd></div>
+                  <div class="case-row"><dt class="mono">OUTCOME</dt><dd>Reports delivered same-day instead of three days later, 100% photo capture, and an MDM-managed rollout to 140 devices.</dd></div>
+                </dl>
+                <p class="metrics mono"><span>OFFLINE-FIRST</span><span>140 DEVICES</span><span>SAME-DAY REPORTS</span><span>NATIVE ×2</span></p>
+                <p class="spread-links mono">
+                  <a href="#contact">START A SIMILAR PROJECT ↗</a>
+                </p>
+              </div>
+            </div>
+          </details>
+        </li>
+
+        <!-- 06 KEELWORKS -->
+        <li class="work-item" data-cat="software" data-stack="python fastapi postgres llm embeddings react typescript docker">
+          <details class="work-row" id="p-keelworks">
+            <summary>
+              <span class="row-num mono" aria-hidden="true">06</span>
+              <span class="row-title">Keelworks — Inventory &amp; Quoting System</span>
+              <span class="row-leader" aria-hidden="true"></span>
+              <span class="row-meta mono">2026 · PYTHON / POSTGRES / LLM</span>
+              <span class="row-glyph" aria-hidden="true">+</span>
+            </summary>
+            <div class="spread">
+              <div class="spread-fig">
+                <pre class="plate mono" aria-hidden="true" data-plate="keelworks"></pre>
+                <p class="fig-caption mono">FIG. 09 — QUOTES IN MINUTES, NOT DAYS</p>
+              </div>
+              <div class="spread-body">
+                <p class="spread-dek">An internal system for a marine parts supplier that turns messy customer emails into accurate quotes against live inventory.</p>
+                <dl class="case-file">
+                  <div class="case-row"><dt class="mono">PROBLEM</dt><dd>Quoting meant reading a customer's email, searching three catalogues, checking stock by phone, and typing a PDF — two days per quote.</dd></div>
+                  <div class="case-row"><dt class="mono">APPROACH</dt><dd>A PostgreSQL inventory core with supplier feeds, an LLM-assisted parser that extracts part requests from free-text emails and matches them via embeddings to catalogue items — with every match shown to a human for approval before the quote goes out.</dd></div>
+                  <div class="case-row"><dt class="mono">STACK</dt><dd>Python · FastAPI · PostgreSQL · LLM integration · semantic embeddings · React · TypeScript · Docker</dd></div>
+                  <div class="case-row"><dt class="mono">OUTCOME</dt><dd>Quote turnaround down from two days to under twenty minutes, 94% first-pass match accuracy, and stock errors effectively eliminated.</dd></div>
+                </dl>
+                <p class="metrics mono"><span>&lt;20 MIN QUOTES</span><span>94% MATCH</span><span>HUMAN-IN-LOOP</span><span>8 WEEKS</span></p>
+                <p class="spread-links mono">
+                  <a href="#contact">START A SIMILAR PROJECT ↗</a>
+                </p>
+              </div>
+            </div>
+          </details>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- ============ 004 THE PROCESS ============ -->
+    <section class="section" id="process" data-folio="004 / 006 — THE PROCESS">
+      <div class="kicker mono"><span>004 — THE PROCESS</span><span>04 / 06</span></div>
+      <h2 class="headline reveal">How we <em>work.</em></h2>
+      <p class="section-note mono rise">FIVE STEPS, NO MYSTERY. YOU ALWAYS KNOW WHAT'S BEING BUILT, WHY, AND WHAT IT COSTS.</p>
+
+      <ol class="ledger">
+        <li class="ledger-row rise">
+          <span class="ledger-when mono">01 — WEEK 0</span>
+          <div class="ledger-what">
+            <h3>Discover</h3>
+            <p>A short call and a written brief. We learn your workflow, your users, and what "done" looks like — then send a fixed-scope quote within two business days.</p>
+          </div>
+          <span class="ledger-tag mono">FIXED QUOTE</span>
+        </li>
+        <li class="ledger-row rise">
+          <span class="ledger-when mono">02 — WEEKS 1–2</span>
+          <div class="ledger-what">
+            <h3>Design</h3>
+            <p>Wireframes first, then a clickable prototype. Nothing gets coded until the flow feels right in your hands, on your devices.</p>
+          </div>
+          <span class="ledger-tag mono">PROTOTYPE</span>
+        </li>
+        <li class="ledger-row rise">
+          <span class="ledger-when mono">03 — WEEKS 2–N</span>
+          <div class="ledger-what">
+            <h3>Build</h3>
+            <p>Working software demoed every Friday on a staging environment you can open anytime. Scope changes are priced before they're built, never after.</p>
+          </div>
+          <span class="ledger-tag mono">WEEKLY DEMOS</span>
+        </li>
+        <li class="ledger-row rise">
+          <span class="ledger-when mono">04 — LAUNCH</span>
+          <div class="ledger-what">
+            <h3>Launch</h3>
+            <p>Testing, store submission or deployment, and a handover of everything — repository, infrastructure, documentation, and a recorded walkthrough.</p>
+          </div>
+          <span class="ledger-tag mono">SOURCE HANDOVER</span>
+        </li>
+        <li class="ledger-row rise">
+          <span class="ledger-when mono">05 — ONGOING</span>
+          <div class="ledger-what">
+            <h3>Support</h3>
+            <p>Thirty days of fixes included, then an optional maintenance plan. No lock-in — the code is yours whether you stay with us or not.</p>
+          </div>
+          <span class="ledger-tag mono">30 DAYS INCLUDED</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ 005 CAPABILITIES ============ -->
+    <section class="section" id="capabilities" data-folio="005 / 006 — CAPABILITIES">
+      <div class="kicker mono"><span>005 — CAPABILITIES</span><span>05 / 06</span></div>
+      <h2 class="headline reveal">Tools of the <em>trade.</em></h2>
+      <p class="section-note mono rise">COUNTS ARE LIVE — SELECT A TECHNOLOGY TO SEE WHERE WE'VE USED IT IN THE INDEX ABOVE.</p>
+
+      <div class="skills-grid">
+        <div class="skill-group rise">
+          <h3 class="skill-group-title mono">LANGUAGES</h3>
+          <ul class="skill-list">
+            <li><button type="button" class="skill mono" data-skill="typescript">TYPESCRIPT</button></li>
+            <li><button type="button" class="skill mono" data-skill="python">PYTHON</button></li>
+            <li><button type="button" class="skill mono" data-skill="swift">SWIFT</button></li>
+            <li><button type="button" class="skill mono" data-skill="kotlin">KOTLIN</button></li>
+            <li><button type="button" class="skill mono" data-skill="postgres">SQL / POSTGRESQL</button></li>
+            <li><span class="skill skill-plain mono">GO</span></li>
+            <li><span class="skill skill-plain mono">C#</span></li>
+          </ul>
+        </div>
+        <div class="skill-group rise">
+          <h3 class="skill-group-title mono">FRAMEWORKS &amp; PLATFORMS</h3>
+          <ul class="skill-list">
+            <li><button type="button" class="skill mono" data-skill="react">REACT</button></li>
+            <li><button type="button" class="skill mono" data-skill="nextjs">NEXT.JS</button></li>
+            <li><button type="button" class="skill mono" data-skill="react-native">REACT NATIVE / EXPO</button></li>
+            <li><button type="button" class="skill mono" data-skill="fastapi">FASTAPI</button></li>
+            <li><button type="button" class="skill mono" data-skill="node">NODE.JS</button></li>
+            <li><button type="button" class="skill mono" data-skill="tailwind">TAILWIND CSS</button></li>
+            <li><span class="skill skill-plain mono">FLUTTER</span></li>
+            <li><span class="skill skill-plain mono">DJANGO</span></li>
+          </ul>
+        </div>
+        <div class="skill-group rise">
+          <h3 class="skill-group-title mono">CLOUD, DATA &amp; AI</h3>
+          <ul class="skill-list">
+            <li><button type="button" class="skill mono" data-skill="docker">DOCKER</button></li>
+            <li><button type="button" class="skill mono" data-skill="aws">AWS</button></li>
+            <li><button type="button" class="skill mono" data-skill="stripe">STRIPE PAYMENTS</button></li>
+            <li><button type="button" class="skill mono" data-skill="maps">MAPS &amp; GEO</button></li>
+            <li><button type="button" class="skill mono" data-skill="llm">LLM INTEGRATION</button></li>
+            <li><button type="button" class="skill mono" data-skill="embeddings">SEMANTIC EMBEDDINGS</button></li>
+            <li><span class="skill skill-plain mono">CI / CD PIPELINES</span></li>
+            <li><span class="skill skill-plain mono">GOOGLE CLOUD</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AVAILABILITY STRIP ============ -->
+    <p class="avail-strip mono" role="note">NOW BOOKING · SOFTWARE · WEB · MOBILE · FIXED-SCOPE QUOTES WITHIN TWO BUSINESS DAYS</p>
+
+    <!-- ============ 006 CONTACT ============ -->
+    <section class="section section-contact" id="contact" data-folio="006 / 006 — CONTACT">
+      <div class="kicker mono"><span>006 — CONTACT</span><span>06 / 06</span></div>
+      <h2 class="headline reveal">Let's <em>build.</em></h2>
+
+      <p class="contact-lede rise">Have a project in mind, or an idea you want to sanity-check? Tell us what you're building and we'll come back within one business day with honest next steps and a rough estimate.</p>
+
+      <div class="contact-email rise">
+        <a class="email-big" href="mailto:hello@annontrix.com">hello@annontrix.com</a>
+        <button class="copy-email mono" id="copyEmail" type="button" data-email="hello@annontrix.com">COPY</button>
+        <span class="visually-hidden" id="copyStatus" role="status"></span>
+      </div>
+
+      <ul class="contact-links mono rise">
+        <li><a href="https://www.linkedin.com/company/annontrix" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a></li>
+        <li><a href="https://github.com/annontrix" target="_blank" rel="noopener noreferrer">GITHUB ↗</a></li>
+        <li><a href="mailto:hello@annontrix.com?subject=Discovery%20call%20with%20Annontrix">BOOK A DISCOVERY CALL ↗</a></li>
+      </ul>
+
+      <!-- Project brief -->
+      <form class="brief rise" id="briefForm" novalidate>
+        <div class="brief-head mono">
+          <span>PROJECT BRIEF</span>
+          <span class="brief-hint">TAKES ABOUT A MINUTE — OPENS IN YOUR MAIL APP</span>
+        </div>
+        <div class="brief-grid">
+          <div class="field">
+            <label class="mono" for="briefName">YOUR NAME</label>
+            <input type="text" id="briefName" name="name" autocomplete="name" placeholder="Jane Doe" required>
+          </div>
+          <div class="field">
+            <label class="mono" for="briefEmail">EMAIL</label>
+            <input type="email" id="briefEmail" name="email" autocomplete="email" placeholder="jane@company.com" required>
+          </div>
+          <div class="field">
+            <label class="mono" for="briefType">WHAT DO YOU NEED?</label>
+            <select id="briefType" name="type">
+              <option value="Software solution">Software solution</option>
+              <option value="Website / web app">Website / web app</option>
+              <option value="Mobile app">Mobile app</option>
+              <option value="Not sure yet">Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label class="mono" for="briefBudget">ROUGH BUDGET</label>
+            <select id="briefBudget" name="budget">
+              <option value="Under $5k">Under $5k</option>
+              <option value="$5k - $15k">$5k – $15k</option>
+              <option value="$15k - $50k">$15k – $50k</option>
+              <option value="$50k+">$50k+</option>
+              <option value="Let's talk">Let's talk</option>
+            </select>
+          </div>
+          <div class="field field-full">
+            <label class="mono" for="briefMessage">TELL US ABOUT THE PROJECT</label>
+            <textarea id="briefMessage" name="message" placeholder="What are you building, who is it for, and when do you need it?" required></textarea>
+          </div>
+        </div>
+        <div class="brief-actions">
+          <button type="submit" class="btn-solid mono">SEND BRIEF ↗</button>
+          <span class="brief-status mono" id="briefStatus" role="status"></span>
+        </div>
+      </form>
+
+      <p class="contact-signoff">— Team Annontrix</p>
+    </section>
+
+  </main>
+
+  <!-- ============ COLOPHON ============ -->
+  <footer class="colophon mono">
+    <div class="colophon-grid">
+      <p>SET IN ARCHIVO, FRAUNCES &amp; SPLINE SANS MONO.</p>
+      <p>HAND-BUILT — VANILLA HTML / CSS / JS. NO FRAMEWORKS. NO BUILD STEP. NO THIRD-PARTY TRACKERS.</p>
+      <p>© 2026 ANNONTRIX — SOFTWARE · WEB · APPS. ISSUE 01.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
